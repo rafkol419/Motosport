@@ -115,6 +115,11 @@ body {
 /* Sekcija Moji radovi */
 #work {
     padding: 50px 20px;
+    text-align: center;
+}
+
+#work h2 {
+    margin-bottom: 30px;
 }
 
 #work .gallery {
@@ -130,6 +135,21 @@ body {
 
 #work .gallery-item:hover {
     transform: scale(1.1);
+}
+
+#parallax {
+    padding: 50px 20px;
+    text-align: center; /* Dodano za centriranje podnaslova i sadržaja */
+}
+
+#parallax h2 {
+    margin-bottom: 20px;
+}
+
+#parallax p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* Responsivnost */
