@@ -1,4 +1,4 @@
-// Skripta za fade-in animaciju kada sekcija dođe u vidokrug
+
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('.section');
     
